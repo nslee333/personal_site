@@ -1,4 +1,5 @@
-from http import http.server
+import http.server
+
 
 def run(server_class=HTTPServer, handler_class=BaseHTTPRequestHandler):
   server_address = ('', 8000)
